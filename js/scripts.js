@@ -36,9 +36,9 @@
   $('#to-top').click(function () {
     $('html, body').animate(
       {
-        scrollTop: 0,
+        scrollTop: 10,
       },
-      500
+      1500
     )
   })
 
@@ -49,7 +49,7 @@
       {
         scrollTop: scrollDistance + 'px',
       },
-      500
+      1500
     )
   })
 
